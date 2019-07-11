@@ -1,0 +1,36 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "favorite": "^0.0.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelliraehanson/nasa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelliraehanson/nasa/issues"
+  },
+  "homepage": "https://github.com/kelliraehanson/nasa#readme"
+}
