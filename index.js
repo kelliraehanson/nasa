@@ -1,10 +1,10 @@
-require('dotenv').config()
+// require('dotenv').config()
 
-const express = require('express')
-const helmet = require('helmet')
-const cors = require('cors')
-const bcrypt = require('bcryptjs')
-const jwt = require('jsonwebtoken')
+// const express = require('express')
+// const helmet = require('helmet')
+// const cors = require('cors')
+// const bcrypt = require('bcryptjs')
+// const jwt = require('jsonwebtoken')
 
 const secret =
   process.env.JWT_SECRET || 'add a third table for many to many relationships'
